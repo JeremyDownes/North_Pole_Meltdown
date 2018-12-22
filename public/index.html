@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+
+    <title>North Pole Meltdown</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+
+  </body>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    let isPortrait = window.innerHeight > window.innerWidth ? true : false
+    $(document).ready( function() {
+    const unit = isPortrait ? window.innerHeight : window.innerWidth
+    const bakg = isPortrait ? {backgroundSize:'auto 80vh, 100vw 100vh', backgroundPosition: '20vh center ' } : {backgroundSize: '65vh auto, 100vw 100vh', backgroundPosition: 'center 20vh' }
+    if(window.innerHeight < window.innerWidth/2) {unit = (window.innerHeight * 2)}  // handles wider screens I think ...
+    $('html').css({fontSize: unit/50+'px', overflow: 'hidden'})
+    $('div.App').css(bakg)
+    $(window).resize(function(){ if(isPortrait) {location.reload()}
+        if (window.innerHeight > window.innerWidth) {location.reload()} 
+      })
+  })
+  </script>
+</html>

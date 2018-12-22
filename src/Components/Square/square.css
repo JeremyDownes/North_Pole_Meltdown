@@ -1,0 +1,20 @@
+.square {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  box-sizing: border-box;
+	background-color: transparent;
+	overflow: visible;
+	padding: 0;
+	margin: 0;
+	height: 1rem;
+	width: 1rem;
+}
+
+.square img {
+	pointer-events: none;
+}
+
+.reverse{
+	transform: rotateY(180deg);
+}

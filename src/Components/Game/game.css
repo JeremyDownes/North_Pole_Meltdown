@@ -1,0 +1,64 @@
+.game {
+	width: 100%;
+	background-image: url('../../resources/images/flag.jpg');
+	background-size: cover;
+}
+
+.fire{
+	background-image:  url('../../resources/images/animations/flames.gif'); 
+	background-size:  contain;
+}
+
+button {
+	background-color: rgba(128,128,128,.4);
+	font-size: 2rem;
+	padding: 4rem;
+}
+
+@media only screen and (max-width: 1240px) {
+
+.game {
+	width: 100%;
+	background-image: url('../../resources/images/flag.jpg');
+	background-size: cover;
+}
+
+.warning {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	font-size: 3rem;
+	z-index: 3;
+	width: 100vw;
+	height: 100vh;
+	background-color: pink;
+}
+
+.warning * {
+	padding: 1rem;
+}
+
+.fire{
+	animation: burn;
+	background-image:  url('../../resources/images/animations/flames.gif'); 
+	background-size:  contain;
+}
+
+
+@keyframes burn {
+	0% {
+		background-image: url('../../resources/images/flag.jpg'); 
+  	background-size:  cover;
+	}
+
+	70% {
+		background-image:  url('../../resources/images/animations/flames.gif'); 
+  	background-size:  cover;
+	}
+	100% {
+		background-image:  url('../../resources/images/animations/flames.gif'); 
+  	background-size:  contain;
+	}
+}
+}
