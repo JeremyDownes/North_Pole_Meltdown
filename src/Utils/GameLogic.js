@@ -77,6 +77,8 @@ export class GameLogic {
 
 	migrate(pos,newPos, obj) {
 	 if(obj && obj.type === 'mexican') {
+	 	this.frame === 16? this.frame = 1 : this.frame++
+	 	obj.imgSrc=require('../resources/images/animations/'+obj.nombre+'/'+this.frame+'.png')
 		let x = pos[1]
 		let y = pos[0]		
 		let xN = newPos[1]

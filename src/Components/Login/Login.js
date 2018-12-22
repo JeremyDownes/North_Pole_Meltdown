@@ -38,11 +38,11 @@ class Login extends React.Component {
 		render() {
 			return(
 				<div className='login'>
-				<div className='intro nobg' style={{display: this.state.display}}>
+				<div className='intro' style={{display: this.state.display}}>
 				<div className='login nobg'>
 				<div className='intro'>
 				<p className='scroll'>
-					<span className='first-letter'>T</span>he Children of the World had been playing too much Xbox and watching too much YouTube.
+					<span className='first-letter'>T</span>he Children of the World have been playing too much Xbox and watching too much YouTube.
 					<br/><br/>
 					Their tiny brains are hooked on the instant gratification and they CANNOT wait for Christmas.
 					<br/><br/>

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="theme-color" content="#000000">
+    <meta property="og:title" content="North Pole Meltdown">
+    <meta property="og:description" content="Save the North Pole by delivering early Christmas presents">
+    <meta property="og:image" content="http://JeremyDownes.com/thumbnail.jpg">
+    <meta property="og:url" content="http://JeremyDownes.com/index.htm">
+    <meta name="twitter:card" content="summary_large_image">
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
@@ -34,6 +39,7 @@
   crossorigin="anonymous"></script>
   <script type="text/javascript">
     let isPortrait = window.innerHeight > window.innerWidth ? true : false
+
     $(document).ready( function() {
     const unit = isPortrait ? window.innerHeight : window.innerWidth
     const bakg = isPortrait ? {backgroundSize:'auto 80vh, 100vw 100vh', backgroundPosition: '20vh center ' } : {backgroundSize: '65vh auto, 100vw 100vh', backgroundPosition: 'center 20vh' }
@@ -43,6 +49,7 @@
     $(window).resize(function(){ if(isPortrait) {location.reload()}
         if (window.innerHeight > window.innerWidth) {location.reload()} 
       })
+    if(isPortrait){window.stop()}
   })
   </script>
 </html>
