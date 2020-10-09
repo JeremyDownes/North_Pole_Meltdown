@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/North_Pole_Meltdown/static/css/main.e2767a44.chunk.css",
+    "main.js": "/North_Pole_Meltdown/static/js/main.83bc8860.chunk.js",
+    "main.js.map": "/North_Pole_Meltdown/static/js/main.83bc8860.chunk.js.map",
+    "runtime-main.js": "/North_Pole_Meltdown/static/js/runtime-main.4d92f503.js",
+    "runtime-main.js.map": "/North_Pole_Meltdown/static/js/runtime-main.4d92f503.js.map",
+    "static/js/2.c2887771.chunk.js": "/North_Pole_Meltdown/static/js/2.c2887771.chunk.js",
+    "static/js/2.c2887771.chunk.js.map": "/North_Pole_Meltdown/static/js/2.c2887771.chunk.js.map",
+    "index.html": "/North_Pole_Meltdown/index.html",
+    "precache-manifest.65738bde6c3e4684f7cec70219d5d1e2.js": "/North_Pole_Meltdown/precache-manifest.65738bde6c3e4684f7cec70219d5d1e2.js",
+    "service-worker.js": "/North_Pole_Meltdown/service-worker.js",
+    "static/css/main.e2767a44.chunk.css.map": "/North_Pole_Meltdown/static/css/main.e2767a44.chunk.css.map",
+    "static/js/2.c2887771.chunk.js.LICENSE.txt": "/North_Pole_Meltdown/static/js/2.c2887771.chunk.js.LICENSE.txt",
+    "static/media/Asenora.gif": "/North_Pole_Meltdown/static/media/Asenora.7829b514.gif",
+    "static/media/board.css": "/North_Pole_Meltdown/static/media/beginning-ending-background.ae04822d.gif",
+    "static/media/cactus.png": "/North_Pole_Meltdown/static/media/cactus.e7f2f871.png",
+    "static/media/login.css": "/North_Pole_Meltdown/static/media/scroll.f104cd5d.png",
+    "static/media/cop.gif": "/North_Pole_Meltdown/static/media/cop.e51651ee.gif",
+    "static/media/cowboy.gif": "/North_Pole_Meltdown/static/media/cowboy.b22879c6.gif",
+    "static/media/game.css": "/North_Pole_Meltdown/static/media/flames.fc939824.gif",
+    "static/media/soldier.gif": "/North_Pole_Meltdown/static/media/soldier.9b20520b.gif",
+    "static/media/taco.png": "/North_Pole_Meltdown/static/media/taco.0aac32d8.png",
+    "static/media/tree.gif": "/North_Pole_Meltdown/static/media/tree.b3714ee5.gif",
+    "static/media/trump.gif": "/North_Pole_Meltdown/static/media/trump.4779d769.gif",
+    "static/media/wall.png": "/North_Pole_Meltdown/static/media/wall.64d02266.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d92f503.js",
+    "static/js/2.c2887771.chunk.js",
+    "static/css/main.e2767a44.chunk.css",
+    "static/js/main.83bc8860.chunk.js"
+  ]
+}
